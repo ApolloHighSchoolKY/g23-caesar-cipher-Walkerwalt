@@ -18,7 +18,10 @@ public class G19 {
 
     	//Create a new cipher using the shifter(#) method
     	//Encrypt and decrypt a message with your new cipher
+		cipher.shifter(6);
 
+		System.out.println(cipher.encrypt("Cute kittens!"));
+    	System.out.println(cipher.decrypt("Cony ecnnyhm!"));
     }
 
 
